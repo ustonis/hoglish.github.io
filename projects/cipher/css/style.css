@@ -19,8 +19,6 @@ main{
     display: flex;
     align-items: center;
     padding-left: 40px;
-    gap: 400px;
-
 }
 
 .container{
@@ -36,40 +34,6 @@ main{
     min-width: 500px; 
     padding: 20px;      
     width: auto;  
-}
-
-.clicker{
-    width: 650px;
-    height: 650px;
-    background-color: aqua;
-}
-
-.clicker__header{
-    width: 100wh;
-    height: 60px;
-    background-color: red;
-    font-size: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.clicker__main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 50px;
-    gap: 30px;
-}
-
-#clicker__main--button {
-    width: 400px;
-    height: 400px;
-}
-
-.clicker__main--text{
-    font-size: 30px;
 }
 
 footer {
@@ -103,9 +67,6 @@ footer {
     }
     #btn-info {
         font-size: 40px;
-    }
-    .clicker{
-        display: none;
     }
     
 
