@@ -3,31 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">Здарова!</title>
+    <title>Игра</title>
     <link rel="stylesheet" href="css/nullstyle.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pipsnicaStyle.css">
 </head>
-
 <body>
     <header>
         <nav>
-            <p class="nav__name" id="site-title">Лоботомия.org</p>
+            <button id="backToChoise">Назад</button>
         </nav>
+        <p id="nav__pageName--text">ПИ</p>
     </header>
     
-    <main>
-        <div class="container">
-            <button class="button" id="btn-cipher">Шифратор</button>
-            <button class="button" id="btn-pipisnica">Пи</button>
-            <button class="button" id="btn-minesweeper">Сапёр</button>
-            <button class="button" id="btn-soon">Скоро...</button>
-            <button class="button" id="btn-info">Информация <br>об авторе</button>
-        </div>
-    </main>
+    <div id="content" class="old">
+        <div id="word_" class="textGame"></div>
+        <div id="themeGame" class="textGame"></div>
+        <div id="vocablary"></div>
+    </div>
+    <div class="pisun">
+        <div id="pi1" class="pipka"></div>
+    <div id="pi2" class="pipka"></div>
+    <div id="pi3" class="pipka"></div>
+    <div id="pi4" class="pipka"></div>
+    <div id="pi5" class="pipka"></div>
+    <div id="pi6" class="pipka"></div>
+    <div id="pi7" class="pipka"></div>
+    <div id="pi8" class="pipka"></div>
+    <div id="balls">
+        <div id="pi9" class="pipka"></div>
+        <div id="pi10" class="pipka"></div>
+        <div id="pi11" class="pipka"></div>
+    </div>
+    </div>
 
 
-    <footer></footer>
-    
-    <script src="scripts/js/main.js"></script>
 </body>
+<script src="js/pipisnica.js"></script>
 </html>
